@@ -1,0 +1,12 @@
+.dropdown-menu-right {
+    left: 79.5%;
+    top: 54px;
+}
+
+nav div ul li a:hover{
+    color:#9147ff !important;
+}
+
+.verticaldots:hover {
+    background-color: #3a3a3d;
+}
