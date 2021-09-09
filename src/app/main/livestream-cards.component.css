@@ -1,0 +1,72 @@
+h5 {
+    color:white;
+    padding-left: 18%;
+    padding-top: 75px;
+}
+
+h6 {
+    color:#9b9b9b;
+    margin-bottom: 5px;
+}
+
+.topimage:hover {
+    border-bottom-color: yellow;
+    border-bottom-width: 5px;
+    border-left-color:yellow;
+    border-left-width: 5px;
+}
+
+.card {
+    background-color: #0e0e10;
+    border:solid;
+    border-color: #0e0e10;
+
+    left:17.9%;
+    top:0px;
+}
+
+.card-title {
+    color:white;
+    font-weight: bold;
+}
+
+.card-title:hover {
+    color:#9147ff;
+}
+
+.card-body {
+    margin-left: -5%;
+    margin-right: -5%;
+}
+
+.rounded-circle {
+    margin-right: 8px;
+}
+
+.three-dots {
+    width:20px;
+    height:20px;
+    margin-left:-10px;
+    margin-top: -2px;
+}
+
+.btn {
+    width:35px;
+    height:35px;
+    margin-top:-10px;
+}
+
+.dropdown-menu {
+    background-color: #18181B;
+    width:200px;
+}
+
+.dropdown-item {
+    color:white;
+    margin-left: -14px;
+}
+
+.rounded-pill {
+    background-color: #3a3a3d;
+    margin-right: 5px;
+}
