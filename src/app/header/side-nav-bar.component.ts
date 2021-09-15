@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 @Component({
     selector: 'app-side-nav-bar',
     templateUrl: 'side-nav-bar.component.html',
-    styleUrls : []
+    styleUrls : ['side-nav-bar.copmonent.css']
 })
 export class SideNavBarComponent {
 

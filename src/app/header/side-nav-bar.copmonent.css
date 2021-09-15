@@ -1,0 +1,14 @@
+div {
+    padding-top: 20px;
+}
+
+.collapse-arrow {
+    height:30px;
+    width:30px;
+}
+
+.flex-column {
+    background-color:#1f1f23;
+    width:300px; 
+    height: 100vh;
+}
