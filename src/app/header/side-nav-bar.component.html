@@ -1,8 +1,8 @@
-<div class="d-flex flex-column flex-shrink-0 position-fixed">
-    <ul class="nav nav-pills flex-column mb-auto">
+<div class="d-flex flex-column position-fixed">
+    <ul class="nav">
         <div class="container">
             <div class="row justify-content-between">
-                <li class="nav-item fw-bold col-auto" style="padding-top:4px; padding-left:0px">
+                <li class="nav-item fw-bold col-auto">
                     <a class="nav-link text-white" aria-current="page">FOLLOWED CHANNELS</a>
                 </li>
                 <button type="button" class="btn col">
@@ -10,6 +10,8 @@
                 </button>
             </div>
         </div>
+        
+        <!--Leaving images and inline styling as placeholder. Will be updated to working components later. -->
         <li>
             <a href="#"><img src="https://i.imgur.com/qYjwoo5.png" style="padding-left:3px;"></a>
         </li>
@@ -23,7 +25,7 @@
             <a href="#"><img src="https://i.imgur.com/andgya1.png" style="padding-left:6px;"></a>
         </li>
         <li>
-            <a class="nav-link" href="#" style="color:#9147ff;">Show More</a>
+            <a class="nav-link showmore" href="#">Show More</a>
         </li>
         <li class="nav-item fw-bold">
             <a class="nav-link text-white" aria-current="page">RECOMMENDED CHANNELS</a>
@@ -35,7 +37,15 @@
             <a href="#"><img src="https://i.imgur.com/ssCM0NA.png" style="padding-left:12px;"></a>
         </li>
         <li>
-            <a class="nav-link" href="#" style="color:#9147ff;">Show More</a>
+            <a class="nav-link showmore" href="#">Show More</a>
         </li>
+
+        <hr class="search-divider">
+        <form class="d-flex friendsearch">
+            <button class="btn friendbtn" type="submit">
+                <img src="./assets/friendsearch.png" width="25" height="25">
+            </button>
+            <input class="form-control" type="search" placeholder="Search to Add Friends" aria-label="Search">
+        </form>
     </ul>
 </div>

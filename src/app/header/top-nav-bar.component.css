@@ -27,6 +27,12 @@
 .searchbarbtn {
     background-color: #9147ff; 
     border-color: #9147ff;
+    border-style:solid;
+    margin-left: -5px;
+}
+
+::placeholder {
+    color:white;
 }
 
 .bit-container {

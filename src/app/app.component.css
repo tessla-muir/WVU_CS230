@@ -1,4 +1,7 @@
 html {
     background-color: #0e0e10;
     height:100vh;
+
+    max-width: 100%;
+    overflow-x: hidden;
 }
