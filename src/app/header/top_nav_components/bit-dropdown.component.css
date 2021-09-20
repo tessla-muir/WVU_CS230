@@ -1,0 +1,44 @@
+.bit-container {
+    padding-top: 10px;
+}
+
+.bitbtn {
+    background-color: #3a3a3d; 
+    border-color: #3a3a3d; 
+    height: 40px;
+}
+
+.dropdown-menu-right {
+    left: 79.5%;
+    top: 54px;
+    background-color: #18181B; 
+    width:320px
+}
+
+.bit-main-divider {
+    color:black; 
+    height:2px; 
+    width: 100%;
+}
+
+.bit-reg-divider {
+    color:#ffffff; 
+    width: 100%;
+}
+
+.bit-row {
+    padding-right: 10px;
+}
+
+.bit-picrow {
+    padding-left: 15px;
+}
+
+.bit-textrow {
+    padding-top: 8px;
+}
+
+.bitbtn-price {
+    background-color: #9147ff; 
+    border-color: #9147ff;
+}

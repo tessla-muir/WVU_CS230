@@ -1,0 +1,17 @@
+.more-btn {
+    background-color: #18181B; 
+    border-color: #18181B;
+}
+
+.dropdown-menu-left {
+    background-color: #18181B;
+}
+
+.more-main-divider {
+    color: white;
+    width: 99%;
+}
+
+.verticaldots:hover {
+    background-color: #3a3a3d;
+}
