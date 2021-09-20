@@ -7,7 +7,14 @@ import { SideNavBarComponent } from './header/side-nav-bar.component';
 import { CarouselComponent } from './main/carousel.component';
 import { LiveSteamCards } from './main/livestream-cards.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
-import { LayoutInnerComponent } from './layout/layout-inner.component';
+import { LayoutHomeComponent } from './layout/home_layout/layout-home.component';
+import { LivestreamPageComponent } from './body/livestream_page/livestream-page.component';
+import { FollowingPageComponent } from './body/following_page/following-page.componet';
+import { BrowsePageComponent } from './body/browse_page/browse-page.component';
+import { AppRoutingModule } from './app-routing.module';
+import { StreamerPageComponent } from './body/streamer_page/streamer-page.component';
+import { GamePageComponent } from './body/game_page/game-page.componet';
+
 
 @NgModule({
   declarations: [
@@ -17,10 +24,16 @@ import { LayoutInnerComponent } from './layout/layout-inner.component';
     CarouselComponent,
     LiveSteamCards,
     LayoutMainComponent,
-    LayoutInnerComponent
+    LayoutHomeComponent,
+    StreamerPageComponent,
+    LivestreamPageComponent,
+    GamePageComponent,
+    FollowingPageComponent,
+    BrowsePageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
