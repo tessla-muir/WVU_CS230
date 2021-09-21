@@ -1,1 +1,28 @@
-<p style="background-color: teal;">This is the following page.</p>
+<h1 class="text-white">Following</h1>
+<div class="navbar navbar-expand">
+    <ul class="navbar-nav">
+        <li>
+            <a routerLink="/following/overview" routerLinkActive="btn-active" class="nav-link fw-bold">Overview</a>
+        </li>
+        <li>
+            <a routerLink="/following/live" routerLinkActive="btn-active" class="nav-link fw-bold">Live</a>
+        </li>
+        <li>
+            <a class="nav-link fw-bold">Videos</a>
+        </li>
+        <li>
+            <a class="nav-link fw-bold">Hosts</a>
+        </li>
+        <li>
+            <a class="nav-link fw-bold">Categories</a>
+        </li>
+        <li>
+            <a class="nav-link fw-bold">Channels</a>
+        </li>
+    </ul>
+</div>
+
+<div class="outlet">
+    <router-outlet></router-outlet>
+</div>
+

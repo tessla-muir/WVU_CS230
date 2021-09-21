@@ -5,7 +5,7 @@ import { Component } from "@angular/core";
     templateUrl: 'stream-section.component.html',
     styleUrls: ['stream-section.component.css']
 })
-export class LivestreamPage_SreamSectionComponent {
+export class LivestreamPage_StreamSectionComponent {
 
     streamPicture = "https://static-cdn.jtvnw.net/previews-ttv/live_user_smitegame-440x248.jpg";
     streamTitle:string = "streaming everyday until I feel content";
