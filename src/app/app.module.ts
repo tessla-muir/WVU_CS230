@@ -10,14 +10,17 @@ import { CarouselComponent } from './main/carousel.component';
 import { LiveSteamCards } from './main/livestream-cards.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
 import { LayoutHomeComponent } from './layout/home_layout/layout-home.component';
+import { StreamerPageComponent } from './body/streamer_page/streamer-page.component';
 import { LivestreamPageComponent } from './body/livestream_page/livestream-page.component';
 import { LivestreamPage_StreamSectionComponent } from './body/livestream_page/stream-section.component';
+import { GamePageComponent } from './body/game_page/game-page.componet';
 import { FollowingPageComponent } from './body/following_page/following-page.componet';
 import { FollowingPage_OverviewComponent } from './body/following_page/following_routes/following-overview.component';
 import { BrowsePageComponent } from './body/browse_page/browse-page.component';
+import { BrowsePage_CategoriesComponent } from './body/browse_page/browse_routes/browse-categories.component';
+import { BrowsePage_LiveChannelsComponent } from './body/browse_page/browse_routes/browse-livechannels.component';
+
 import { AppRoutingModule } from './app-routing.module';
-import { StreamerPageComponent } from './body/streamer_page/streamer-page.component';
-import { GamePageComponent } from './body/game_page/game-page.componet';
 
 
 
@@ -38,7 +41,9 @@ import { GamePageComponent } from './body/game_page/game-page.componet';
     GamePageComponent,
     FollowingPageComponent,
     FollowingPage_OverviewComponent,
-    BrowsePageComponent
+    BrowsePageComponent,
+    BrowsePage_CategoriesComponent,
+    BrowsePage_LiveChannelsComponent
   ],
   imports: [
     BrowserModule,

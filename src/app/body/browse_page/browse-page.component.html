@@ -1,1 +1,15 @@
-<p style="background-color: tomato;">This is the browse page.</p>
+<h1 class="text-white">Browse</h1>
+<div class="navbar navbar-expand">
+    <ul class="navbar-nav">
+        <li>
+            <a routerLink="/browse/categories" routerLinkActive="btn-active" class="nav-link fw-bold">Categories</a>
+        </li>
+        <li>
+            <a routerLink="/browse/livechannels" routerLinkActive="btn-active" class="nav-link fw-bold">Live Channels</a>
+        </li>
+    </ul>
+</div>
+
+<div class="outlet">
+    <router-outlet></router-outlet>
+</div>
