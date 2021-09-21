@@ -11,6 +11,7 @@ import { LiveSteamCards } from './main/livestream-cards.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
 import { LayoutHomeComponent } from './layout/home_layout/layout-home.component';
 import { LivestreamPageComponent } from './body/livestream_page/livestream-page.component';
+import { LivestreamPage_SreamSectionComponent } from './body/livestream_page/stream-section.component';
 import { FollowingPageComponent } from './body/following_page/following-page.componet';
 import { BrowsePageComponent } from './body/browse_page/browse-page.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -33,6 +34,7 @@ import { GamePageComponent } from './body/game_page/game-page.componet';
     LayoutHomeComponent,
     StreamerPageComponent,
     LivestreamPageComponent,
+    LivestreamPage_SreamSectionComponent,
     GamePageComponent,
     FollowingPageComponent,
     BrowsePageComponent

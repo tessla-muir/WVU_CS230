@@ -24,3 +24,11 @@
 nav div ul li a:hover{
     color:#9147ff !important;
 }
+
+.rightside {
+    margin-left:5%;
+}
+
+.rightbtn {
+    margin-right:-5%;
+}

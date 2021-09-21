@@ -1,0 +1,44 @@
+<div class="container-fluid">
+    <div class="row">
+        <iframe src="https://player.twitch.tv/?channel=SmiteGame&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="720px;" width="100%"></iframe>
+    </div>
+    <div class="row nonstream">
+        <div class="col-9">
+            <div class="d-flex flex-row">
+                <div>
+                    <img routerLink="/streamer" class="rounded-circle border border-warning" src="{{streamerProfilePicture}}" width="90" height="90">
+                </div>
+                <div class="d-flex stream-contents">
+                    <div>
+                        <h5 routerLink="/streamer" class="streamname">{{streamerName}}</h5>
+                        <h6 class="streamtitle">{{streamTitle}}</h6>
+                        <div class="d-flex">
+                            <h6 routerLink="/game" class="streamgame">{{streamGame}}</h6>
+                            <span class="badge rounded-pill">Esports</span><span class="badge rounded-pill">English</span><span class="badge rounded-pill">Drops Enabled</span><span class="badge rounded-pill">MOBA</span><span class="badge rounded-pill">Action</span><span class="badge rounded-pill">Strategy</span>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="conatiner btncontainer">
+                <button type="button" class="btn"><img class="btn-pic" style="margin-top:-2px;" src="./assets/Body/Livestream/follow.png"></button>
+                <button type="button" class="btn"><img class="btn-pic" src="./assets/Body/Livestream/reminder.png"></button>
+                <button type="button" class="btn btn2">
+                    <div class="d-flex">
+                        <img class="btn-pic" src="./assets/Body/Livestream/resubscribe.png" height="22" width="25">
+                        <h6 class="bt2-text">Resubscribe: 20% off</h6>
+                    </div>
+                </button>
+            </div>
+            <div class="d-flex p-2 flew-row-reverse">
+                <img src="./assets/Body/Livestream/live-count.png" height="30" width="30">
+                <h6 class="viewcount fs-5" style="padding-top:4px; padding-bottom:0px;">1,504</h6>
+                <h6 class="text-white livetext fs-5">0:00:00</h6>
+                <button type="button" class="btn btn3"><img class="btn-pic" src="./assets/Body/Livestream/share.png"></button>
+                <button type="button" class="btn btn3"><img class="btn-pic" src="./assets/Body/Livestream/menu-vertical.png"></button>
+            </div>
+        </div>
+    </div>
+</div>
