@@ -16,11 +16,13 @@ import { LivestreamPage_StreamSectionComponent } from './body/livestream_page/st
 import { GamePageComponent } from './body/game_page/game-page.componet';
 import { FollowingPageComponent } from './body/following_page/following-page.componet';
 import { FollowingPage_OverviewComponent } from './body/following_page/following_routes/following-overview.component';
+import { FollowingPage_LiveComponent } from './body/following_page/following_routes/following-live.component';
 import { BrowsePageComponent } from './body/browse_page/browse-page.component';
 import { BrowsePage_CategoriesComponent } from './body/browse_page/browse_routes/browse-categories.component';
 import { BrowsePage_LiveChannelsComponent } from './body/browse_page/browse_routes/browse-livechannels.component';
 
 import { AppRoutingModule } from './app-routing.module';
+
 
 
 
@@ -41,6 +43,7 @@ import { AppRoutingModule } from './app-routing.module';
     GamePageComponent,
     FollowingPageComponent,
     FollowingPage_OverviewComponent,
+    FollowingPage_LiveComponent,
     BrowsePageComponent,
     BrowsePage_CategoriesComponent,
     BrowsePage_LiveChannelsComponent
