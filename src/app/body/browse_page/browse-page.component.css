@@ -4,8 +4,26 @@ h1 {
     margin-left:2%;
 }
 
-div {
+.navbar {
     margin-left:1.7%;
+}
+
+.d-flex {
+    margin-bottom:2%;
+    padding-left:2.2%;
+    padding-right:2.2%;
+}
+
+.btn {
+    background-color: #3a3a3d;
+    margin-left: 1%;
+}
+
+.form-control {
+    width:200px;
+    margin-left:-5px;
+    background-color: #3a3a3d;
+    border-color: #3a3a3d;
 }
 
 .nav-link {
@@ -25,4 +43,8 @@ div {
 .btn-active {
     text-decoration: underline;
     color:#9147ff;
+}
+
+.container-fluid {
+    padding:0px;
 }

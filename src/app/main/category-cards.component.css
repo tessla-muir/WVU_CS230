@@ -1,0 +1,45 @@
+.card {
+    background-color: #0e0e10;
+    border:solid;
+    border-color: #0e0e10;
+}
+
+.card-body {
+    padding: 0px;
+    padding-top:10px;
+}
+
+.gameName {
+    color:white;
+}
+
+.viewerCount {
+    color:#949494
+}
+
+.three-dots {
+    width:20px;
+    height:20px;
+    margin-left:-10px;
+    margin-top: -2px;
+}
+
+.btn {
+    width:35px;
+    height:35px;
+    margin-top:-10px;
+}
+
+.dropdown-menu {
+    background-color: #18181B;
+    width:200px;
+}
+
+.dropdown-item {
+    color:white;
+}
+
+.rounded-pill {
+    background-color: #3a3a3d;
+    margin-right: 5px;
+}

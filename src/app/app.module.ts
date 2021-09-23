@@ -8,6 +8,7 @@ import { TopNavBar_BitDropdownComponent } from './header/top_nav_components/bit-
 import { SideNavBarComponent } from './header/side-nav-bar.component';
 import { CarouselComponent } from './main/carousel.component';
 import { LiveSteamCards } from './main/livestream-cards.component';
+import { CategoryCardsComponent } from './main/category-cards.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
 import { LayoutHomeComponent } from './layout/home_layout/layout-home.component';
 import { StreamerPageComponent } from './body/streamer_page/streamer-page.component';
@@ -26,6 +27,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +36,7 @@ import { AppRoutingModule } from './app-routing.module';
     TopNavBar_BitDropdownComponent,
     SideNavBarComponent,
     CarouselComponent,
+    CategoryCardsComponent,
     LiveSteamCards,
     LayoutMainComponent,
     LayoutHomeComponent,
