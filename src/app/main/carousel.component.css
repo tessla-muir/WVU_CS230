@@ -23,12 +23,12 @@
 .carousel {
     left: 28%;
     margin-top: -26%;
-    margin-bottom: 3%;
 }
 
 .carousel-control-prev {
-    left: 31%;
-    top: 24%;
+    position:relative;
+    margin-left:19%;
+    margin-top:-15%;
     width:40px;
     height:50px;
     background-color: black;
@@ -41,8 +41,9 @@
 }
 
 .carousel-control-next {
-    left: 82%;
-    top: 24%;
+    position:relative;
+    margin-left: 77%;
+    margin-top: -2.8%;
     width:40px;
     height:50px;
     background-color: black;
