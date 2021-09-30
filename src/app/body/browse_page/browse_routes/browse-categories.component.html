@@ -1,37 +1,10 @@
 <div class="container-fluid">
-    <div class="row g-0">
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-    </div>
-
-    <div class="row g-0">
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
-        </div>
-        <div class="col">
-            <app-category-cards></app-category-cards>
+    <div class="d-flex flex-row flex-wrap flex-gap">
+        <div *ngFor="let CategoryCard of categorycards"> 
+            <app-category-cards
+            gamePicture={{CategoryCard.gamePicture}}
+            streamGame={{CategoryCard.streamGame}}
+            ></app-category-cards>
         </div>
     </div>
 </div>

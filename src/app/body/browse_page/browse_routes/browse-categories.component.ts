@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { CategoryCard } from "src/app/main/category-cards.model";
+import { mock_categorycards } from "src/app/main/mock-category-cards";
 
 @Component({
     selector: 'app-browse-categories',
@@ -6,5 +8,11 @@ import { Component } from "@angular/core";
     styleUrls: ['browse-categories.component.css']
 })
 export class BrowsePage_CategoriesComponent {
+    categorycards:CategoryCard[] =[];
 
+    constructor() {
+        for (var categorycard of mock_categorycards) {
+            this.categorycards.push(new CategoryCard(categorycard))
+        }
+    }
 }
