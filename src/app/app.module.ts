@@ -21,9 +21,9 @@ import { FollowingPage_LiveComponent } from './body/following_page/following_rou
 import { BrowsePageComponent } from './body/browse_page/browse-page.component';
 import { BrowsePage_CategoriesComponent } from './body/browse_page/browse_routes/browse-categories.component';
 import { BrowsePage_LiveChannelsComponent } from './body/browse_page/browse_routes/browse-livechannels.component';
-
 import { AppRoutingModule } from './app-routing.module';
-
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
 
 
 
@@ -49,11 +49,13 @@ import { AppRoutingModule } from './app-routing.module';
     FollowingPage_LiveComponent,
     BrowsePageComponent,
     BrowsePage_CategoriesComponent,
-    BrowsePage_LiveChannelsComponent
+    BrowsePage_LiveChannelsComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

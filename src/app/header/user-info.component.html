@@ -1,0 +1,16 @@
+<p *ngIf="myInfo == undefined" class="text-white" style="margin-top:60px;">Failed getting user info.</p>
+<div *ngIf="myInfo != undefined" style="margin-top:60px;">
+    <div class="container-fluid">
+        <div class="d-flex flex-row justify-content-between">
+            <div class="flex-column text-white">
+                User: {{myInfo.FirstName}} {{myInfo.LastName}}
+            </div>
+            <div class="flex-column text-white">
+                Mix ID: <a href="malito:{{myInfo.mix_id}}.mix.wvu.edu">{{myInfo.mix_id}}</a>
+            </div>
+            <div class="flex-column text-white">
+                GitHub: <a href={{myInfo.GitHub}}>{{myInfo.GitHub}}</a>
+            </div>
+        </div>
+    </div>
+</div>
