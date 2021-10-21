@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { CategoryCard } from "src/app/main/category-cards.model";
+import { CategoryCardsService } from "src/app/main/category-cards.service";
 import { mock_categorycards } from "src/app/main/mock-category-cards";
 
 @Component({
@@ -10,7 +11,16 @@ import { mock_categorycards } from "src/app/main/mock-category-cards";
 export class BrowsePage_CategoriesComponent {
     categorycards:CategoryCard[] =[];
 
-    constructor() {
+    constructor(private CategoryCardsService: CategoryCardsService) {
+        console.log();
 
+    }
+
+    ngOnInit() {
+        this.CategoryCardsService.getCategoryCard().subscribe((data: CategoryCard[]) => {
+            for (var item of data) {
+                this.categorycards.push(item);
+            }
+        }); 
     }
 }
