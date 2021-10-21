@@ -21,7 +21,7 @@
     <div class="row normal-row">
         <h5 class="text-white"><a routerLink="/browse/categories" href="#" class="catLink">Categories</a> we think you'll like</h5>
         <div class="d-flex flex-row flex-wrap flex-gap">
-            <div *ngFor="let CategoryCard of categorycards"> 
+            <div *ngFor="let CategoryCard of categorycards; index as i"> 
                 <app-category-cards
                 gamePicture={{CategoryCard.gamePicture}}
                 streamGame={{CategoryCard.streamGame}}

@@ -11,8 +11,6 @@ export class BrowsePage_CategoriesComponent {
     categorycards:CategoryCard[] =[];
 
     constructor() {
-        for (var categorycard of mock_categorycards) {
-            this.categorycards.push(new CategoryCard(categorycard))
-        }
+
     }
 }
