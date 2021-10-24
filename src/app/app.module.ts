@@ -24,6 +24,8 @@ import { BrowsePage_LiveChannelsComponent } from './body/browse_page/browse_rout
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
+import { AddCategoryComponent } from './body/browse_page/browse_routes/add-category.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -37,6 +39,7 @@ import { UserInfoComponent } from './header/user-info.component';
     SideNavBarComponent,
     CarouselComponent,
     CategoryCardsComponent,
+    AddCategoryComponent,
     LiveSteamCards,
     LayoutMainComponent,
     LayoutHomeComponent,
@@ -55,7 +58,8 @@ import { UserInfoComponent } from './header/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

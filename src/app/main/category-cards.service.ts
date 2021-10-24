@@ -13,4 +13,8 @@ export class CategoryCardsService {
     getCategoryCard() {
         return this.http.get<CategoryCard []>(this.baseUrl + this.categoryCardsEndpoints);
     }
+
+    modifyCategoryCard(data:CategoryCard) {
+        return this.http.post(this.baseUrl + this.categoryCardsEndpoints, data);
+    }
 }

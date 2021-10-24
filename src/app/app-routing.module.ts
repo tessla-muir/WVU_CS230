@@ -10,6 +10,7 @@ import { FollowingPage_LiveComponent } from './body/following_page/following_rou
 import { GamePageComponent } from './body/game_page/game-page.componet';
 import { LivestreamPageComponent } from './body/livestream_page/livestream-page.component';
 import { StreamerPageComponent } from './body/streamer_page/streamer-page.component';
+import { AddCategoryComponent } from './body/browse_page/browse_routes/add-category.component';
 
 
 
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: '', component:  LayoutHomeComponent},
   { path: 'browse', component: BrowsePageComponent,
     children: [{path:'categories', component: BrowsePage_CategoriesComponent},
-               {path:'livechannels', component: BrowsePage_LiveChannelsComponent}]},
+               {path:'livechannels', component: BrowsePage_LiveChannelsComponent},
+               {path:'add_category', component: AddCategoryComponent}]},
   { path: 'following', component: FollowingPageComponent,
     children: [{path:'overview', component: FollowingPage_OverviewComponent},
                {path: 'live', component: FollowingPage_LiveComponent}]},
