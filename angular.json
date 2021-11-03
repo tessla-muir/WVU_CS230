@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "twitch:build:production",
+            "firebaseProject": "twitch-app-9f7b9",
+            "firebaseHostingSite": "twitch-app-9f7b9"
+          }
         }
       }
     }

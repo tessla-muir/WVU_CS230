@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "twitch-app-9f7b9": {
+      "hosting": {
+        "twitch": [
+          "twitch-app-9f7b9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "twitch-app-9f7b9"
+  }
+}
