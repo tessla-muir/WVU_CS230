@@ -1,0 +1,23 @@
+div {
+    margin-left:2%;
+    margin-top:1.5%;
+}
+
+.form-label {
+    color:white;
+}
+
+.form-text {
+    color:rgb(117, 117, 117);
+}
+
+.line {
+    width:22%;
+}
+
+.btn {
+    margin-top:4%;
+    margin-right:10px;
+    color:white;
+    background-color:blueviolet;
+}

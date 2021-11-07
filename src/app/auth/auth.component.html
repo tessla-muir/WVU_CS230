@@ -1,0 +1,22 @@
+<div class="row">
+    <h1 class="text-white text-bold">Account</h1>
+</div>
+<div class="row">
+    <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+        <div class="mb-1 line">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="Email"
+                ngModel name="email" 
+                required email>   
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-1 line">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Password"
+                ngModel name="password"
+                required password minlength="8">
+        </div>
+        <button type="submit" class="btn" [disabled] = "!authForm.valid" (click)="buttonClicked='Login'">Login</button>
+        <button type="submit" class="btn" (click)="buttonClicked='SignUp'">Sign Up</button>
+    </form>
+</div>

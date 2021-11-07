@@ -32,3 +32,10 @@ nav div ul li a:hover{
 .rightbtn {
     margin-right:-5%;
 }
+
+.loginbtn {
+    background-color:#9147ff;
+    height:40px;
+    margin-top:2.1%;
+    margin-right:1%;
+}

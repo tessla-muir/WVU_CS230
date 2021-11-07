@@ -11,6 +11,7 @@ import { GamePageComponent } from './body/game_page/game-page.componet';
 import { LivestreamPageComponent } from './body/livestream_page/livestream-page.component';
 import { StreamerPageComponent } from './body/streamer_page/streamer-page.component';
 import { AddCategoryComponent } from './body/browse_page/browse_routes/add-category.component';
+import { AuthComponent } from './auth/auth.componnet';
 
 
 
@@ -26,7 +27,8 @@ const routes: Routes = [
                {path: 'live', component: FollowingPage_LiveComponent}]},
   { path: 'livestream', component: LivestreamPageComponent},
   { path: 'streamer', component: StreamerPageComponent},
-  { path: 'game', component: GamePageComponent}
+  { path: 'game', component: GamePageComponent},
+  { path: 'auth', component: AuthComponent}
 ];
 
 @NgModule({

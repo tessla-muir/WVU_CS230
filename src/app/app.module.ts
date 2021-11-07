@@ -31,6 +31,7 @@ import { environment } from 'src/environments/environment';
 import { provideFirebaseApp } from '@angular/fire/app';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { initializeApp } from 'firebase/app';
+import { AuthComponent } from './auth/auth.componnet';
 
 
 
@@ -58,7 +59,8 @@ import { initializeApp } from 'firebase/app';
     BrowsePageComponent,
     BrowsePage_CategoriesComponent,
     BrowsePage_LiveChannelsComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
